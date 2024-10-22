@@ -53,8 +53,10 @@ export class InicioPage implements OnInit, AfterViewInit {
         }
       });
   }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
-  ngOnInit() {}
 
   ngAfterViewInit() {
     this.animarTituloIzqDer();
