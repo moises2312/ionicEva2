@@ -1,4 +1,7 @@
 export class NivelEducacional {
+  static findNivelEducacionalById(arg0: number): any {
+    throw new Error('Method not implemented.');
+  }
 
   public id: number;
   public nombre: string;

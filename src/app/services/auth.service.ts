@@ -10,6 +10,9 @@ import { DataBaseService } from './data-base.service';
   providedIn: 'root'
 })
 export class AuthService {
+  getAuthenticatedUser(): Usuario | undefined {
+    throw new Error('Method not implemented.');
+  }
 
   keyUsuario = 'USUARIO_AUTENTICADO';
   usuarioAutenticado = new BehaviorSubject<Usuario | null>(null);
